@@ -1,0 +1,32 @@
+<!-- Add (model) year, and a method that returns make, model and year as one String and use the method to tell the user. Story 2:
+Constrain the maximum speed to not exceed 85. Try taking it above 80 and see what happens. Story 3:
+Use a while loop to take speed up to 70, then use a while loop to brake down to 0. Surprise: it doesn't stop at 0, fix that. Story 4:
+Sometimes roads are slippery and downhill, and sometimes brakes fail: make the brake change the speed with a random amount with a maximum of plus or minus of the current speed. (Hint: try Math.random();) -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="jquery-blink.js" language="javscript" type="text/javascript"></script>
+    <script src="carChallengeInteractive.js"></script>
+    <title>Car Challenge</title>
+  </head>
+  <body>
+    <h1 id="title">Car Challenge</h1>
+    <h3 id="year">Year:</h3>
+    <input id="yearInput" type="text">
+    <h3 id="make">Make:</h3>
+    <input id="makeInput" type="text">
+    <h3 id="model">Model:</h3>
+    <input id="modelInput" type="text">
+    <button id ="inputButton">Create Car</button>
+    <h2 id = "createCar"></h2>
+    <h2 id ="speed">0</h2>
+    <h2 id="blink">SLOW DOWN!!!!!</h2>
+    <button id ="accelerate">Accelerate</button>
+    <button id="brake">Brake</button>
+    <a href="file:///Users/learn/Desktop/isaac-dom-dan/carChallenge.html"><button id="newCar">New car</button></a>
+
+  </body>
+</html>
